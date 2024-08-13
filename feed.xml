@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>git reset --hard: Alex Perez</title>
+  <subtitle></subtitle>
+  <link href="https://gitresethard.com/feed.xml" rel="self"/>
+  <link href="https://gitresethard.com/"/>
+  
+    <updated>2024-08-13T00:00:00Z</updated>
+  
+  <id>https://gitresethard.com</id>
+  <author>
+    <name>Alex Perez</name>
+    <email>alex@gitresethard.com</email>
+  </author>
+  
+    
+    <entry>
+      <title>My Socials</title>
+      <link href="https://gitresethard.com/posts/my-socials/"/>
+      <updated>2024-08-13T00:00:00Z</updated>
+      <id>https://gitresethard.com/posts/my-socials/</id>
+      <content type="html">
+        <![CDATA[
+      <h1>My socials</h1>
+<ul>
+<li>Projects - <a href="https://github.com/0xreentrant">https://github.com/0xreentrant</a></li>
+<li>Recent writings - <a href="https://linkedin/in/alexanderlperez">https://linkedin/in/alexanderlperez</a></li>
+<li>My blockchain security alter ego's blog - <a href="https://0xreentrant.github.io">https://0xreentrant.github.io</a></li>
+</ul>
+<p>Email is: alexanderlperez <em>at</em> gmail.com</p>
+
+    ]]>
+      </content>
+    </entry>
+  
+</feed>
