@@ -8,7 +8,7 @@ tags: []
 
 # My socials
 
-Projects - https://github.com/0xreentrant 
-Recent writings - https://linkedin/in/alexanderlperez
-My blockchain security alter ego's blog - https://0xreentrant.github.io
+- Projects - [https://github.com/0xreentrant](https://github.com/0xreentrant) 
+- Recent writings - [https://linkedin/in/alexanderlperez](https://linkedin/in/alexanderlperez)
+- My blockchain security alter ego's blog - [https://0xreentrant.github.io](https://0xreentrant.github.io)
 
