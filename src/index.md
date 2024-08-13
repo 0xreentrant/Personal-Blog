@@ -3,9 +3,11 @@ layout: home
 title: '2024: the dotcom bloodbath'
 ---
 
-# It was a dark and stormy night, and only few are hiring...
+I'd never attribute myself the title of "shadowy super coder", because I can't seem to live without sharing a little too much of what I believe to be shadowy, and have made a few too many bugs in my days to consider myself other than "supremely adequate and occasionaly indispensable". 
 
-I'd never attribute myself the title of "shadowy super coder", because I can't seem to live without sharing a little too much of what I believe to be shadowy, and have made a few too many bugs in my days to consider myself other than "supremely adequate and occasionaly indispensable". What I can describe about my state in an industry built on churn is that I am currently cast away in the sea of unemployment.  That doesn't mean I'm helpless. No, I've been building.  Here's a little bit of where to start:
+## Open to Hire
+
+I am currently cast away in the sea of unemployment.  That doesn't mean I'm helpless. No, I've been building.  Here's a little bit of where to start:
 
 ## [Blake: a Full-Stack Typescript Project](https://github.com/0xreentrant/blake-bookmark-manager)
 
