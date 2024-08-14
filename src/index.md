@@ -3,7 +3,9 @@ layout: home
 title: '2024: the dotcom bloodbath'
 ---
 
-I'd never attribute myself the title of "shadowy super coder", because I can't seem to live without sharing a little too much of what I believe to be shadowy, and have made a few too many bugs in my days to consider myself other than "supremely adequate and occasionaly indispensable". 
+# Who is Alex?
+
+I'd never attribute myself the title of "shadowy super coder", because I can't seem to live without sharing a little too much of what I believe to be shadowy, and have made a few too many bugs in my days to consider myself other than "supremely adequate and occasionaly indispensable". I am currently a white belt in Jiu Jitsu and recently swam for the first time in almost 10 years.  
 
 ## Open to Hire
 
