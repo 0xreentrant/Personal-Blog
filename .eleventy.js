@@ -144,6 +144,6 @@ module.exports = function (eleventyConfig) {
     templateFormats: ['html', 'njk', 'md'],
     htmlTemplateEngine: 'njk',
     markdownTemplateEngine: 'njk',
-    //pathPrefix: "/Personal-Blog/",
+    pathPrefix: "/Personal-Blog/",
   };
 };
