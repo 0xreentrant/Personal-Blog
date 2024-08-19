@@ -9,6 +9,22 @@
   },
   "defaultSocialImage": "/images/default-social-image.png",
   "headerLinks": [
+    {
+      "text": "Home",
+      "url": "/",
+      "external": false
+    },
+    {
+      "text": "Blog",
+      "url": "/blog",
+      "external": false
+    },
+    {
+      "text": "résumé",
+      "url": "https://linkedin.com/in/alexanderlperez",
+      "external": true
+    },
+    { "text": "Contact me", "url": "https://forms.gle/Nk7hV3K9M7tHrGSu9", "external": true }
   ],
   "socialLinks": [
     {
@@ -24,5 +40,5 @@
   ],
   "footerLinks": [
   ],
-  "showFooterAttribution": true
+  "showFooterAttribution": false
 }

@@ -4,14 +4,23 @@ title: '2024: the dotcom bloodbath'
 ---
 
 # Who is Alex?
+<img src="images/me.png" style="float: right;width: 35%; padding-left: 2em;">
 
-I'd never attribute myself the title of "shadowy super coder", because I can't seem to live without sharing a little too much of what I believe to be shadowy, and have made a few too many bugs in my days to consider myself other than "supremely adequate and occasionaly indispensable". I am currently a white belt in Jiu Jitsu and recently swam for the first time in almost 10 years.  
+  - 12+ years as a Full Stack Software Engineer, specializing in Javascript and Typescript.
+  - Team Lead and Senior for multiple teams.
+  - Proven experience in building apps for the web, from concept to deployment.
+
+I am currently a white belt in Brazilian Jiu Jitsu and recently swam for the first time in almost 10 years.  
+
+I wouldn't attribute to myself the title of "shadowy super coder", because I love collaborating with other passionate coders and consider myself closer to "supremely adequate and occasionaly indispensable". 
+
 
 ## Open to Hire
 
-I am currently cast away in the sea of unemployment.  That doesn't mean I'm helpless. No, I've been building.  Here's a little bit of where to start:
+I'm currently looking for employment.  That doesn't mean I've been sitting on my hands... No, I've been building and keeping busy.  Here's a little bit of where to look for the latest in what I've been up to:
 
 ## [Blake: a Full-Stack Typescript Project](https://github.com/0xreentrant/blake-bookmark-manager)
+![Blake](images/blake.png)
 
 A bookmark lists app with Chrome bookmark data imports: [https://github.com/0xreentrant/blake-bookmark-manager](https://github.com/0xreentrant/blake-bookmark-manager)
 
