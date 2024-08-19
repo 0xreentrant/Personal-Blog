@@ -1,5 +1,5 @@
 # Who is Alex?
-<img src="images/me.png" style="float: right;width: 35%; padding-left: 2em;">
+![me](src/images/me.png) 
 
   - 12+ years as a Full Stack Software Engineer, specializing in Javascript and Typescript.
   - Team Lead and Senior for multiple teams.
@@ -15,7 +15,7 @@ I wouldn't attribute to myself the title of "shadowy super coder", because I lov
 I'm currently looking for employment.  That doesn't mean I've been sitting on my hands... No, I've been building and keeping busy.  Here's a little bit of where to look for the latest in what I've been up to:
 
 ## [Blake: a Full-Stack Typescript Project](https://github.com/0xreentrant/blake-bookmark-manager)
-![Blake](images/blake.png)
+![Blake](src/images/blake.png)
 
 A bookmark lists app with Chrome bookmark data imports: [https://github.com/0xreentrant/blake-bookmark-manager](https://github.com/0xreentrant/blake-bookmark-manager)
 
