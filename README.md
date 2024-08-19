@@ -1,6 +1,4 @@
 # Who is Alex?
-![me](src/images/me.png) 
-
   - 12+ years as a Full Stack Software Engineer, specializing in Javascript and Typescript.
   - Team Lead and Senior for multiple teams.
   - Proven experience in building apps for the web, from concept to deployment.
