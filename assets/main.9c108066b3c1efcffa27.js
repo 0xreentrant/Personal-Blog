@@ -1,0 +1,1 @@
+(()=>{var e;e=document.getElementById("face"),new Typewriter(e,{loop:!0,delay:75}).typeString(":)").pauseFor(5e3).deleteAll().typeString(";)").pauseFor(5e3).deleteAll().typeString(":O").pauseFor(5e3).deleteAll().typeString(";P").pauseFor(5e3).deleteAll().start()})();

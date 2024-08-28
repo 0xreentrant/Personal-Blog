@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>git reset --hard: Alex Perez</title>
+  <title># git reset --hard</title>
   <subtitle></subtitle>
   <link href="https://gitresethard.com/feed.xml" rel="self"/>
   <link href="https://gitresethard.com/"/>
@@ -10,7 +10,7 @@
   <id>https://gitresethard.com</id>
   <author>
     <name>Alex Perez</name>
-    <email>alex@gitresethard.com</email>
+    <email>alexanderlperez@gmail.com</email>
   </author>
   
     
