@@ -1,10 +1,10 @@
 {
-  "name": "git reset --hard",
+  "name": "# git reset --hard",
   "description": "Opinions and hard-won lessons from a professional coder.",
   "url": "https://gitresethard.com",
   "author": {
     "name": "Alex Perez",
-    "email": "alex@gitresethard.com",
+    "email": "alexanderlperez@gmail.com",
     "twitterHandle": "0xreentrant"
   },
   "defaultSocialImage": "/images/default-social-image.png",

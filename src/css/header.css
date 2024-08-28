@@ -23,6 +23,7 @@
   font-size: var(--text-xl);
   margin-top: 1rem;
   margin-bottom: 1rem;
+  text-transform: initial;
 }
 
 .site-title a {

@@ -1,6 +1,6 @@
 ---
 layout: home
-title: '2024: the dotcom bloodbath'
+title: 'gitresethard.com'
 ---
 
 <h1 style="margin-top:0;font-size:56px;">Hi, I'm Alex <span id="face"></span></h1>
@@ -41,30 +41,34 @@ title: '2024: the dotcom bloodbath'
   </a>
 </div>
 
-<h1 style="margin-top:1em; font-size: 42px;font-weight:bold; background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Open to Hire</h1>
+<h1 style="margin-top:1em; font-size: 42px;font-weight:bold; background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
+  <a href="https://linkedin.com/in/alexanderlperez" target="_blank" style="">Open to Hire</a>
+</h1>
 
 I'm currently looking for employment.  That doesn't mean I've been sitting on my hands... No, I've been building and keeping busy.  
 
 Here's a little bit of where to look for the latest in what I've been up to:
 
-## [Blake: a Full-Stack Typescript Project](https://github.com/0xreentrant/blake-bookmark-manager)
+<h2><a href="https://github.com/0xreentrant/blake-bookmark-manager" target="_blank">Blake: a Full-Stack Typescript Project</a></h2>
+
 ![Blake](images/blake.png)
 
-A bookmark lists app with Chrome bookmark data imports: [https://github.com/0xreentrant/blake-bookmark-manager](https://github.com/0xreentrant/blake-bookmark-manager)
+A bookmark lists app with Chrome bookmark data imports: <a href="https://github.com/0xreentrant/blake-bookmark-manager" target="_blank">https://github.com/0xreentrant/blake-bookmark-manager</a>
 
-The opinionated startup stack for 2024 is:
+It uses the Typescript startup stack for 2024:
 - Next.js 14 SSR framework
 - Drizzle ORM
 - Lucia Auth
 - PostgreSQL DB
 - Vercel cloud hosting
 
-## [Blockchain Security Research](https://0xreentrant.github.io)
-A blog I keep about secure programming for the blockchain: [https://0xreentrant.github.io](https://0xreentrant.github.io)
+<h2><a href="https://0xreentrant.github.io" target="_blank">Blockchain Security Research</a></h2>
+
+A blog I keep about secure programming for the blockchain: <a href="https://0xreentrant.github.io" target="_blank">https://0xreentrant.github.io</a>
 
 Web3 is the wild west of money like Limewire was the wild west of data piracy. Get equipped or get "rekt".  
 
-Breakdowns include:
+Here you'll find in-depth breakdowns for:
 
 - A historic hack and how it happened when everything "looked good"
 - What it's like to audit a Rust-based, zero-proof-cryptography backed blockchain
@@ -77,7 +81,7 @@ I wouldn't attribute to myself the title of "shadowy super coder", because:
 
 <ol style="font-size: 24px;line-height:40px">
   <li>I love collaborating with other passionate teammates</li>
-  <li>I consider my skill-set closer to "supremely adequate and occasionaly indispensable"</li>
+  <li>I consider my skill-set closer to "supremely adequate and occasionally indispensable"</li>
 </ol>
 
 
