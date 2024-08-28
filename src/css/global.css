@@ -87,8 +87,13 @@ ol ol {
 }
 
 ul {
-  list-style-type: square;
-  list-style-position: inside;
+  padding-left: 1em;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+ul, ol {
+  padding-top: 1em;
 }
 
 b,
@@ -126,7 +131,7 @@ td:only-child {
 
 * + h1,
 * + h2 {
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 * + h3,
