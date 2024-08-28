@@ -7,10 +7,10 @@ title: '2024: the dotcom bloodbath'
 
 <img src="images/me.png" style="margin-left:2em;margin-top:2.75em;float:right;width:35%;border-radius:12px 12px 12px 12px;object-fit:cover">
 
-    <ul style="padding-left: 1em;line-height:38px; font-size:24px;">
+    <ul style="padding-left: 1.5em;line-height:38px; font-size:24px;list-style-type:'👉  ';">
       <li>
         I've worked <b>12+</b> years as a <b>Full Stack Software Engineer</b>, specializing in:
-        <ul style="padding-top:.25em;padding-bottom:.25em;list-style-type:'-  ';">
+        <ul style="padding-top:.25em;padding-bottom:.25em;">
           <li>Typescript</li> 
           <li>React.js</li> 
           <li>Node.js</li> 
