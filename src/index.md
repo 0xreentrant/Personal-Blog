@@ -27,16 +27,16 @@ title: 'gitresethard.com'
 
 
 <div style="padding-top:0em;padding-bottom: 1em;width:100%;display:flex;gap: 2em;align-items:center;">
-  <a href="canvs.ai" style="display:inline-block;width:25%;">
+  <a target="_blank" href="https://canvs.ai" style="display:inline-block;width:25%;">
     <img src="images/canvs.png"    />
   </a>
-  <a href="lumenalabs.com" style="display:inline-block;width:25%;">
+  <a target="_blank" href="https://lumenalabs.com" style="display:inline-block;width:25%;">
     <img src="images/lumena.png"   />
   </a>
-  <a href="blkdg.com" style="display:inline-block;width:25%;">
+  <a target="_blank" href="https://blkdg.com" style="display:inline-block;width:25%;">
     <img src="images/blkdg.png"    />
   </a>
-  <a href="neoreach.com" style="display:inline-block;width:25%;">
+  <a target="_blank" href="https://neoreach.com" style="display:inline-block;width:25%;">
     <img src="images/neoreach.svg" />
   </a>
 </div>
