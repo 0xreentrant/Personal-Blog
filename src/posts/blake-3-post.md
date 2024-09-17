@@ -6,13 +6,10 @@ date: '2024-09-03'
 tags: []
 ---
 
-# Building Blake, P3: The one where I build a landing page with help from AI
-
 ![Article Cover](https://media.licdn.com/dms/image/v2/D5612AQH50W75N62AAg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725337255262?e=1732147200&amp;v=beta&amp;t=9YOLPVCSqmAUHsSg5s4q6Am8lawMro0leqka9m_rXKw)
 
 ### Alexander Perez, Senior Full Stack Engineer
 
-![Alexander Perez, Senior Full Stack Engineer, #OPEN_TO_WORK](https://media.licdn.com/dms/image/v2/D5635AQGDU5mvvjBfFQ/profile-framedphoto-shrink_100_100/profile-framedphoto-shrink_100_100/0/1718308949458?e=1727146800&amp;v=beta&amp;t=6ZhES8nOX-_dUx9shBB3nOrCWBuJRI2gX8ehbJ0H0GY)
 
 **Building Full Stack SaaS platforms for startups | Typescript, React, Next.js, State Management, SQL/NoSQL, GraphQL, OAuth**
 
