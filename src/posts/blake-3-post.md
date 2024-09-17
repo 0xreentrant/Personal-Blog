@@ -59,4 +59,4 @@ Eventually I settled with this for the landing page's main illustration:
 
 ---
 
-*Read the full article on LinkedIn*: [Click here to read, and leave a comment, please :)](https://www.linkedin.com/pulse/full-stack-skills-action-building-blake-nextjs-saas-alexander-of7sc/)
+*Read the full article on LinkedIn*: [Click here to read, and leave a comment, please :)](https://www.linkedin.com/pulse/full-stack-skills-action-building-blake-nextjs-saas-alexander-of7sc/?trackingId=jbvGc0HhS7q17s20ZoszwA%3D%3D)
