@@ -5,7 +5,7 @@
   <link href="https://gitresethard.com/feed.xml" rel="self"/>
   <link href="https://gitresethard.com/"/>
   
-    <updated>2024-09-03T00:00:00Z</updated>
+    <updated>2024-09-04T00:00:00Z</updated>
   
   <id>https://gitresethard.com</id>
   <author>
@@ -166,6 +166,88 @@
 <p><img src="https://media.licdn.com/dms/image/v2/D5612AQFtE316LdG6_Q/article-inline_image-shrink_1000_1488/article-inline_image-shrink_1000_1488/0/1725330642946?e=1732147200&amp;v=beta&amp;t=JZ46bM5K0zijQ5Keml3iibpTRbz25V2jAIUpEObFKRU" alt="What I ended up with"></p>
 <hr>
 <p><em>Read the full article on LinkedIn</em>: <a href="https://www.linkedin.com/pulse/full-stack-skills-action-building-blake-nextjs-saas-alexander-of7sc/?trackingId=jbvGc0HhS7q17s20ZoszwA%3D%3D">Click here to read, and leave a comment, please :)</a></p>
+
+    ]]>
+      </content>
+    </entry>
+  
+    
+    <entry>
+      <title>Mocks in your web3 protocol tests fool you</title>
+      <link href="https://gitresethard.com/posts/mocks-in-your-web3-protocol-tests-fool-you/"/>
+      <updated>2024-09-04T00:00:00Z</updated>
+      <id>https://gitresethard.com/posts/mocks-in-your-web3-protocol-tests-fool-you/</id>
+      <content type="html">
+        <![CDATA[
+      <p><img src="https://media.licdn.com/dms/image/v2/D5612AQFg1TL2j9MaBA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725502095635?e=1732752000&amp;v=beta&amp;t=68nJRzcEIDj7sKUwCcYk4iCCrdhDbu0ZYV4b6jeRX7k" alt="Zetachain back in November '23"></p>
+<h2>Alexander Perez, Sr. Full Stack Engineer</h2>
+<p><em>Rapid application development specialist | Typescript, React, Next.js, State Management, SQL/NoSQL, GraphQL, OAuth</em></p>
+<p><strong>Published on September 4, 2024</strong></p>
+<hr>
+<h3>Don’t let mocks in your protocol tests fool you</h3>
+<blockquote>
+<p><em>Note: This article was written for web3 protocol developers. Security researchers will also get a little glimpse into techniques for testing protocols.</em></p>
+</blockquote>
+<p>Mocking expensive, slow, or complex-to-set-up components is a great way to make testing faster, cheaper, and simpler to leverage. However, the expectations of the mock can diverge from the expectations of the real-world object. When that happens, your codebase might not work, despite passing tests.</p>
+<p>The biggest threat to developing a protocol is the mental model of the protocol within the mind of the developer. A flawed mental model happens from numerous sources, but today we’ll focus on one: the false sense of security that comes with passing tests.</p>
+<blockquote>
+<p><em>Note: I’m using the definition of “mock” as described by Martin Fowler in <a href="https://martinfowler.com/articles/mocksArentStubs.html">this article</a>.</em></p>
+</blockquote>
+<p><strong>TL;DR</strong>: If you want to skip to actionable insights, jump to <a href="https://0xreentrant.github.io/blog/2023/mocks-fool-you/#how-can-I-ensure-our-mocks-are-correct">How can I ensure our mocks are correct?</a>.</p>
+<h3>Our case</h3>
+<p>Imagine getting green checkmarks on all your tests. You’ve built a suite to exercise the happy paths and even some edge cases. All tests passed. It’s time to celebrate. But when you try to run the deployed example, something unsavory emerges.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5612AQF8TIsbtytSrA/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1725502152439?e=1732752000&amp;v=beta&amp;t=yUS8EPEXAacX0LbIMZoXFRtGcJxbqmwdHPHB4r-AFIU" alt="Error Example"></p>
+<blockquote>
+<p><em>Note: Before you hire a firm to audit your code, make sure to fully deploy your code to a testnet with all 3rd-party contracts and features available.</em></p>
+</blockquote>
+<p>You're going to think, “What’s wrong? I coded this perfectly - all tests passed!” But your mocks fooled you. It’s a false positive, and those green checkmarks aren’t giving the confidence they should. Let’s break down what to keep in mind.</p>
+<h3>Mocks have tradeoffs</h3>
+<p>When we use mocks, we’re making a tradeoff. Here are two main reasons to use them:</p>
+<ol>
+<li>Dependencies are too expensive, slow, or complex to spin up each time.</li>
+<li>We want our tests to run quickly and efficiently.</li>
+</ol>
+<h3>But what are the consequences?</h3>
+<p>These tradeoffs are acceptable when:</p>
+<ul>
+<li>You’re building the protocol pre-launch.</li>
+<li>You’re adding to an existing protocol.</li>
+<li>You’re exploring new systems.</li>
+</ul>
+<p>However, in web3 financial protocols, stakes are high, and care must be taken before accepting real people's assets. As our favorite rug-pull <a href="https://rekt.news/stake-rekt/">journalist</a> says, “They say the house always wins. Not in crypto.”</p>
+<h3>How can I ensure our mocks are correct?</h3>
+<p>“But reentrant, we read the documentation front-to-back, and everything works as expected!”</p>
+<p>I get it. You’ve put in the work. But consider:</p>
+<ul>
+<li>The documentation could be wrong.</li>
+<li>The implementation may have changed.</li>
+<li>You might have used the wrong flag in a function.</li>
+</ul>
+<p>Then things break. Here’s what to do before deploying your new protocol:</p>
+<ol>
+<li>Create “smoke-tests.”</li>
+<li>Deploy on a fully-functional testnet and run manual tests.</li>
+<li>Build “forking tests” that fork a live network.</li>
+<li>Build integration tests for all major features.</li>
+</ol>
+<blockquote>
+<p><em>Decision tree for determining when mocks fail.</em></p>
+</blockquote>
+<h3>What do these possibilities look like?</h3>
+<p>There’s nothing like a real environment to expose the brittleness of a test suite’s assumptions. In web3, this paranoia is warranted.</p>
+<h3>Smoke tests</h3>
+<p>If your contracts interface with 3rd-party code, ensure to run manual or scripted tests for each feature. If mocks were passing but the tests fail, there’s an issue with the mock.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5612AQF4IT_I3KH4Ow/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1725502149403?e=1732752000&amp;v=beta&amp;t=eFpUE9jmBDynTvcz6D6u-HIWcj96QhgzJ-r8nVZHLGw" alt="Example"></p>
+<h3>Manual testing on a testnet</h3>
+<p>Run tests on a testnet to ensure that all features that interact with 3rd-party systems work. It’s more accessible, but it may require amassing gas tokens.</p>
+<h3>Forking tests</h3>
+<p>Fork a live chain and run a local version. This gives more control and speed, but tests may take longer compared to mocking tests.</p>
+<h3>Live Integration Tests</h3>
+<p>Integration tests on a live testnet offer the most assurance of correctness, with all components deployed and no mocks. You’ll need testnet gas tokens for every run.</p>
+<p><img src="https://media.licdn.com/dms/image/v2/D5612AQE56D7yOrlLZg/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1725502149277?e=1732752000&amp;v=beta&amp;t=WbXoT6RIeYsJqDpm9RhPU0u_B4N6llhLBHRlp_ljHNE" alt="Testing"></p>
+<h3>Conclusion</h3>
+<p>Mocks are helpful but come with tradeoffs. To avoid false positives, increase assurances by running tests against actual 3rd-party code.</p>
+<p>In web3, it's critical to ensure that real money isn't lost due to thefts or mishandling of digital assets. Test comprehensively, test often.</p>
 
     ]]>
       </content>
